@@ -60,7 +60,7 @@ header img{
     justify-content: center;
     align-items: center;
     z-index: 1;
-    font-size: 300%;
+    font-size: 2.5vw;
     background-color: rgba(26, 36, 63, 0);
     transition: all ease 0.4s;
 }
