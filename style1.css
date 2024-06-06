@@ -29,12 +29,12 @@ header img{
 }
 @keyframes gg{
     from{
-        box-shadow: 0 0 20px 2vw #7620ff;
-        background-color: #7620ff; 
+        box-shadow: 0 0 20px 2vw #7520ff40;
+        background-color: #7620ff40; 
     }
     to{
-        box-shadow: 0 0 20px 2vw #20d2ff;
-        background-color: #20d2ff;
+        box-shadow: 0 0 20px 2vw #20d2ff70;
+        background-color: #20d2ff70;
     }
 }
 .triplet{
