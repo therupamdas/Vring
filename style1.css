@@ -8,33 +8,36 @@ header{
     overflow: hidden;
     transition: all ease 0.2s;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    z-index: 1;
-    background-color: #ffffff00;
     height: 15vw;
 }
-
-header img{
-    height: 8vw;
-    width: 8vw;
-    transition: all ease 0.2s; 
-    box-shadow: 0 0 20px 2vw #7620ff;
-    background-color: #7620ff; 
+#headimg{
+    height: 9vw;
+    width: 9vw;
     border-radius: 50%;
     animation-name: gg;
-    animation-duration: 1.2s;
+    animation-duration: 1s;
     animation-iteration-count:infinite;
     animation-direction: alternate;
+    filter: blur(2px);
+}
+header img{
+    z-index: 1;
+    position: absolute;
+    height: 7.5vw;
+    width: 7.5vw;
+    transition: all ease 0.2s; 
+    border-radius: 50%;
+    background-color: #20ff5f00;
+
 }
 @keyframes gg{
     from{
-        box-shadow: 0 0 20px 2vw #7520ff40;
-        background-color: #7620ff40; 
+        background-color: #7620ff5e;
     }
     to{
-        box-shadow: 0 0 20px 2vw #20d2ff70;
-        background-color: #20d2ff70;
+        background-color: #20d2ff5e;
     }
 }
 .triplet{
