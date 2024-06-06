@@ -9,7 +9,7 @@ header{
     transition: all ease 0.2s;
     display: flex;
     align-items: center;
-    height: 15vw;
+    height: 10vw;
     background-color: #111111;
 }
 .glow{
@@ -19,12 +19,12 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15vw;
+    height: 8vw;
     background-color: #111111;
 }
 #backcircle{
-    height: 9vw;
-    width: 9vw;
+    height: 7.5vw;
+    width: 7.5vw;
     border-radius: 50%;
     animation-name: gg;
     animation-duration: 1s;
@@ -35,8 +35,8 @@ header{
 .glow img{
     z-index: 1;
     position: absolute;
-    height: 7.5vw;
-    width: 7.5vw;
+    height: 7vw;
+    width: 7vw;
     transition: all ease 0.2s; 
     border-radius: 50%;
     background-color: #20ff5f00;
@@ -61,6 +61,7 @@ header{
     padding: 1%;
 }
 .blok{
+    outline-color: #7620ff;
     border-radius: 3%;
     aspect-ratio: 3/4;
     display: flex;
@@ -70,7 +71,7 @@ header{
     overflow: hidden;
     width: 20%;
     background-color:rgba(26, 36, 63, 0.7);
-    transition: all ease 0.4s;
+    transition: all ease 0.25s;
 }
 .blok:hover{
     background-color:rgba(26, 36, 63, 0.9);
