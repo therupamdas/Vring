@@ -12,14 +12,30 @@ header{
     align-items: center;
     z-index: 1;
     background-color: #ffffff00;
-}
-header img{
     height: 15vw;
-    width: 15vw;
-    aspect-ratio: 1/1;
+}
+
+header img{
+    height: 8vw;
+    width: 8vw;
     transition: all ease 0.2s; 
-    z-index: 1;
-    background-color: #ffffff00;
+    box-shadow: 0 0 20px 2vw #7620ff;
+    background-color: #7620ff; 
+    border-radius: 50%;
+    animation-name: gg;
+    animation-duration: 1.2s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+@keyframes gg{
+    from{
+        box-shadow: 0 0 20px 2vw #7620ff;
+        background-color: #7620ff; 
+    }
+    to{
+        box-shadow: 0 0 20px 2vw #20d2ff;
+        background-color: #20d2ff;
+    }
 }
 .triplet{
     margin-left: 10%;

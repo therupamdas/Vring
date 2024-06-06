@@ -1,3 +1,4 @@
-alert("Naach");
-name='rupam';
-console.log("name - ",name);
+//alert("Welcome to vring");
+//name='rupam';
+//console.log("name - ",name);
+//typeof name;
