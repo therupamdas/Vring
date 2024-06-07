@@ -43,6 +43,7 @@ header{
 
 }
 .sinup{
+    text-decoration: none;
     width: 100%;
     aspect-ratio: 2.25/1;
     font-size: 1.5vw;
