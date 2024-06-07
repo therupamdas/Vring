@@ -7,3 +7,12 @@
 
 const rupam = require("./second");
 console.log("Hello ",rupam);
+
+const fs = require("fs");
+const a = fs.readFileSync('file.txt');
+console.log(a.toString());
+console.log("OK");
+
+fs.writeFile('filetwo.txt',"This is a Data",()=>{
+    console.log("Written");
+});
