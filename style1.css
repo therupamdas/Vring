@@ -227,14 +227,14 @@ background-color: #4308a1;
     border: 2px solid#ffffff;
 }
 #user{
-    margin-left: auto;
-    margin-right: 10%;
+    height: 10vw;
+    margin-left: 65%;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    row-gap: 1vw; 
-    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 1vw;
     aspect-ratio: 1/1;
     color: #7620ff;
     background-color: #0f0f0f;
