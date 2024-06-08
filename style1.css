@@ -28,6 +28,7 @@ header{
 
     box-shadow: 0vw 0vw 5vw 1vw  #7620ff;
     top: 50%;
+    opacity:0.8;
     left: 50%;
     transform: translate(-50%,-50%);
     padding-left: 1vw;
@@ -45,6 +46,16 @@ header{
     justify-content: center;
     background-color:#ffffff;
     transition: all ease 0.25s;
+}
+#komen{
+    scale: 3;
+    position: absolute;
+}
+
+ .logbox.active{
+    top: 50%;
+    opacity:1;
+    transform: translate(-50%,-50%);
 }
 .glow{
     width: 25%;
