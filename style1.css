@@ -99,6 +99,7 @@ header{
 }
 .logbox h2{
     width: 100%;
+    margin: 2.5%;
     text-align: center;
 }
 .logbox label{
@@ -142,6 +143,7 @@ header{
     color: #7620ff;
     background-color: #111111;
     transition: all ease 0.2s;
+    cursor: pointer;
 }
 .sinup:hover{
     color: #ffffff;
