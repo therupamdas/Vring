@@ -141,7 +141,7 @@ background-color: #4308a1;
     justify-content: center;
     align-items: center;
     height: 10vw;
-    background-color: #0f0f0f;
+    background-color: #0f0f0f00;
 }
 .glow{
     width: 20vw;
@@ -248,7 +248,6 @@ background-color: #4308a1;
 }
 #user{
     height: 10vw;
-    margin-left: 65%;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -257,7 +256,7 @@ background-color: #4308a1;
     row-gap: 1vw;
     aspect-ratio: 1/1;
     color: #7620ff;
-    background-color: #0f0f0f;
+    background-color: #0f0f0f00;
 
 }
 @keyframes gg{
@@ -305,8 +304,6 @@ background-color: #4308a1;
     aspect-ratio: 10/1;
     display: flex;
     align-items: center;
-    z-index: 1;
-    overflow: hidden;
     width: 100%;
     background-color:rgba(26, 36, 63, 0.7);
     transition: all ease 0.25s;    
@@ -333,11 +330,8 @@ background-color: #4308a1;
     transition: all ease 0.2s;
 }
 .ediname{
-    color: #ff3223;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-    font-size: 2.1vw;
+    color: #7620ff;
+    font-size: 2vw;
     background-color: rgba(26, 36, 63, 0);
     transition: all ease 0.2s;
 }
