@@ -28,8 +28,7 @@ header{
 
     box-shadow: 0vw 0vw 5vw 1vw  #7620ff;
     top: -50%;
-    opacity:0.8;
-    scale: 0.9;
+    opacity:0;
     left: 50%;
     transform: translate(-50%,-50%);
     padding-left: 1vw;
@@ -52,14 +51,15 @@ header{
     top: 50%;
     opacity:1;
     transform: translate(-50%,-50%);
-    scale: 1;
 }
 .cross{
+    position: absolute;
     border-radius: 50%;
     aspect-ratio: 1/1;
     background-color: #111111;
     color: #ffffff;
-    left: 0;
+    top: 2%;
+    right: 2%;
 }
 .glow{
     width: 25%;
