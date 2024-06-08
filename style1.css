@@ -234,33 +234,31 @@ background-color: #4308a1;
     src: url(./footage/a1.ttf);
 }
 footer{
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1%;
-    padding: 1%;
-    height: 100%;
-    
+    height: 10%;
+    width: 100%;
+    background-color: rgb(26, 36, 63);
+    bottom: 0;
 }
 .f1{
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
     background-color: rgba(26, 36, 63, 0.7);
     transition: all ease 0.4s;
     height: 100%;
-    padding: 1%;
 }
 .f2{
     color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
-    font-size: 100%;
-    background-color: rgba(26, 36, 63, 0);
+    font-size: 1.5vw;
+    background-color: #ffffff00;
     height: 100%;
     padding: 1%;
 }
