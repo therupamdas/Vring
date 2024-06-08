@@ -1,4 +1,4 @@
-document.querySelectorAll("#komen").addEventListener('click',function(){
-    document.querySelectorAll(".logbox").classList.add("active");
+document.querySelector("#logg").addEventListener('click',function(){
+    document.querySelector(".logbox").classList.add("active");
     
 });
