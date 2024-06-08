@@ -94,6 +94,11 @@ background-color: #4308a1;
     animation-direction: alternate;
     filter: blur(1px);
 }
+#user img{
+    aspect-ratio: 1/1;
+    height: 6.5vw;
+    width: 6.5vw;
+}
 .glow img{
     z-index: 1;
     position: absolute;
