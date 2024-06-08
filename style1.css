@@ -3,6 +3,11 @@ body{
     font-family: gaz; 
     background-color:#0f0f0f;
 }
+input{
+    outline: none;
+    border: solid 1px #757575;
+    border-radius: 0.25vw;
+}
 header{
     width: 100%;
     overflow: hidden;
@@ -53,13 +58,21 @@ header{
     transform: translate(-50%,-50%);
 }
 .cross{
+    text-align: center;
+    text-decoration: none;
+    border: none;
     position: absolute;
     border-radius: 50%;
     aspect-ratio: 1/1;
-    background-color: #111111;
+    background-color: #7620ff;
     color: #ffffff;
     top: 2%;
     right: 2%;
+    cursor: pointer;
+
+}
+.cross:hover{
+background-color: #4308a1;
 }
 .glow{
     width: 25%;
@@ -219,15 +232,6 @@ header{
     font-family: gaz;
     src: url(./footage/a1.ttf);
 }
-#bvdo{
-    position: fixed;
-    z-index: 0;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    opacity: 0.05;
-  }
 footer{
     display: flex;
     justify-content: center;
