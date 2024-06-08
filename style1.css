@@ -133,8 +133,18 @@ header{
 .cross:hover{
 background-color: #4308a1;
 }
+.glow2{
+    width: 10vw;
+    overflow: hidden;
+    transition: all ease 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vw;
+    background-color: #0f0f0f;
+}
 .glow{
-    width: 25%;
+    width: 20vw;
     overflow: hidden;
     transition: all ease 0.2s;
     display: flex;
@@ -157,6 +167,16 @@ background-color: #4308a1;
     aspect-ratio: 1/1;
     height: 6.5vw;
     width: 6.5vw;
+}
+.glow2 img{
+    z-index: 1;
+    position: absolute;
+    height: 7vw;
+    width: 7vw;
+    transition: all ease 0.2s; 
+    border-radius: 50%;
+    background-color: #20ff5f00;
+
 }
 .glow img{
     z-index: 1;
