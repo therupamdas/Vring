@@ -158,7 +158,7 @@ background-color: #4308a1;
     width: 7.5vw;
     border-radius: 50%;
     animation-name: gg;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-iteration-count:infinite;
     animation-direction: alternate;
     filter: blur(1px);
@@ -262,9 +262,11 @@ background-color: #4308a1;
 @keyframes gg{
     from{
         background-color: #7620ff5e;
+        scale: 1;
     }
     to{
         background-color: #20d2ff5e;
+        scale: 1.02;
     }
 }
 .triplet{
