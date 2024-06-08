@@ -54,6 +54,13 @@ header{
     transform: translate(-50%,-50%);
     scale: 1;
 }
+.cross{
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    background-color: #111111;
+    color: #ffffff;
+    left: 0;
+}
 .glow{
     width: 25%;
     overflow: hidden;
