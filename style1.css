@@ -24,11 +24,43 @@ a{
     transition: all ease 0.15s;
     
 }
+.f2 img{
+    aspect-ratio: 1/1;
+    width: 100%;
+}   
+
+.f1{
+    clip-path: circle();
+    aspect-ratio: 1/1;
+    height: 4vw;
+    transition: all ease 0.3s;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: rgba(36, 58, 121, 0.9);
+    transition: all ease 0.4s;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+.f2{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    background-color: #ffffff00;
+    height: 100%;
+    padding: 1%;
+}
+.f1:hover{
+    background-color: rgba(26, 36, 63, 0.7);
+}
 .navoption a{
     color: #7620ff;
 }
 .navoption:hover{
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid #7620ff;
 }
 input{
     outline: none;
@@ -302,29 +334,10 @@ footer{
     width: 100%;
     background-color: rgb(26, 36, 63);
     bottom: 0;
+    flex-direction: column;
+
 }
-.f1{
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(26, 36, 63, 0.7);
-    transition: all ease 0.4s;
-    height: 100%;
-}
-.f2{
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5vw;
-    background-color: #ffffff00;
-    height: 100%;
-    padding: 1%;
-}
-.f1:hover{
-    background-color: rgba(36, 58, 121, 0.9);
-}
+
 .t2{
     color: #ffffff;
     position: absolute;
@@ -349,5 +362,14 @@ footer{
     margin: 5%;
     background-color: rgba(26, 36, 63, 0.7);
 }
-
-
+.footrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(26, 36, 63);
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    color: #ffffff;
+}
