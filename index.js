@@ -1,8 +1,13 @@
 document.querySelector("#logg").addEventListener('click',function(){
     document.querySelector(".logbox").classList.add("active");    
 });
-document.querySelector(".cross").addEventListener('click',function(){
+document.querySelector("#logcross").addEventListener('click',function(){
     document.querySelector(".logbox").classList.remove("active");   
 });
-let a = document.getElementById("user");
-console.log(a);
+
+document.querySelector(".navbar").addEventListener('click',function(){
+    document.querySelector(".alertbox").classList.add("active");    
+});
+document.querySelector("#alertcross").addEventListener('click',function(){
+    document.querySelector(".alertbox").classList.remove("active");   
+});

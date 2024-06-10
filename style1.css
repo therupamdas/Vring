@@ -84,6 +84,7 @@ header{
         box-shadow: 0vw 0vw 7vw 3vw  #7520ff75;
     }
 }
+
 .logbox{
     animation-name: dim;
     animation-duration: 1s;
@@ -112,6 +113,39 @@ header{
     transition: all ease 0.4s;
 }
 .logbox.active{
+    top: 50%;
+    opacity:1;
+    transform: translate(-50%,-50%);
+}
+
+.alertbox{
+    animation-name: dim;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+
+    box-shadow: 0vw 0vw 5vw 1vw  #7620ff;
+    top: -50%;
+    opacity:0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 0.6vw;
+    padding-bottom: 0.6vw;
+    position: absolute;
+    z-index: 2;
+    width: 30vw;
+    border-radius: 0.6vw;;
+    aspect-ratio: 4/3;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color:#ffffff;
+    transition: all ease 0.4s;
+}
+.alertbox.active{
     top: 50%;
     opacity:1;
     transform: translate(-50%,-50%);
