@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 4000
-
+app.use(express.static('public'))
 app.get('/', (req, res) => {
     res.sendFile('C:/Users/rupam/Web Dev/Vring/index.html');
 })

@@ -339,7 +339,7 @@ background-color: #4308a1;
 }
 @font-face {
     font-family: gaz;
-    src: url(./footage/a1.ttf);
+    src: url(./public/footage/a1.ttf);
 }
 footer{
     position: absolute;
