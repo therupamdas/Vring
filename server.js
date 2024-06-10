@@ -1,13 +1,19 @@
-const express = require('express')
+import express from 'express';
 const app = express()
-const port = 4000
-app.use(express.static('public'))
+const port = 3000
+
+app.use(express.static('C:/Users/rupam/Web Dev/Vring/'));
+
+import mongoose from "mongoose";
+let a = await mongoose.connect("mongodb://localhost:27017/VringDatabase");
+
+
 app.get('/', (req, res) => {
-    res.sendFile('C:/Users/rupam/Web Dev/Vring/index.html');
+  res.sendFile('C:/Users/rupam/Web Dev/Vring/index.html');
 })
 app.get('/style1.css', (req, res) => {
-    res.sendFile('C:/Users/rupam/Web Dev/Vring/style1.css');
-  });
+  res.sendFile('C:/Users/rupam/Web Dev/Vring/style1.css');
+});
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Listening on port ${port}`)
 })

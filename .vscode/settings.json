@@ -1,23 +1,4 @@
 {
-    "cSpell.words": [
-        "alertbox",
-        "alertcross",
-        "backcircle",
-        "bvdo",
-        "edilist",
-        "ediname",
-        "filetwo",
-        "footrow",
-        "komen",
-        "logbox",
-        "logcross",
-        "logg",
-        "navoption",
-        "rupam",
-        "Sevices",
-        "sinup",
-        "sstr",
-        "vring",
-        "Vringing"
-    ]
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false
 }
