@@ -132,6 +132,7 @@ header {
     transform: translate(-50%, -50%);
 }
 
+
 .alertbox {
     animation-name: dim;
     animation-duration: 1s;
@@ -186,6 +187,18 @@ header {
     background-color: #4308a1;
 }
 
+#displaypicture {
+    display: none;
+}
+
+#sinlog.disappear {
+    display: none;
+}
+
+#displaypicture.appear {
+    display: flex;
+}
+
 .glow2 {
     width: 10vw;
     overflow: hidden;
@@ -219,7 +232,7 @@ header {
     filter: blur(1px);
 }
 
-#user img {
+.user img {
     aspect-ratio: 1/1;
     height: 6.5vw;
     width: 6.5vw;
@@ -312,7 +325,7 @@ header {
     border: 2px solid#ffffff;
 }
 
-#user {
+.user {
     height: 10vw;
     overflow: hidden;
     display: flex;

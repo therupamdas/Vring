@@ -1,17 +1,28 @@
-document.querySelector("#logg").addEventListener('click',function(){
-    document.querySelector(".logbox").classList.add("active");    
+let logged = false;
+document.querySelector("#logg").addEventListener('click', function () {
+    document.querySelector(".logbox").classList.add("active");
 });
-document.querySelector("#logcross").addEventListener('click',function(){
+document.querySelector("#logcross").addEventListener('click', function () {
     document.querySelector(".logbox").classList.remove("active");
-    event.stopImmediatePropagation();  
+    event.stopImmediatePropagation();
 });
 
-document.querySelector("body").addEventListener('click',function(){
-    if (document.querySelector('.logbox').classList.contains('active')==false){
-    document.querySelector(".alertbox").classList.add("active"); 
-    }   
+document.querySelector("body").addEventListener('click', function () {
+    if (logged == false) {
+        if (document.querySelector('.logbox').classList.contains('active') == false) {
+            document.querySelector(".alertbox").classList.add("active");
+        }
+    }
 });
-document.querySelector("#alertcross").addEventListener('click',function(){
+document.querySelector("#alertcross").addEventListener('click', function () {
     document.querySelector(".alertbox").classList.remove("active");
-    event.stopImmediatePropagation();  
+    event.stopImmediatePropagation();
+});
+
+document.querySelector(".ent").addEventListener('click', function () {
+    document.querySelector("#sinlog").classList.add("disappear");
+    document.querySelector("#displaypicture").classList.add("appear");
+    document.querySelector(".logbox").classList.remove("active");
+    logged = true;
+    event.stopImmediatePropagation();
 });
