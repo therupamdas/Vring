@@ -4,6 +4,7 @@ document.querySelector("#logg").addEventListener('click', function () {
 });
 document.querySelector("#logcross").addEventListener('click', function () {
     document.querySelector(".logbox").classList.remove("active");
+    document.querySelector(".alertbox").classList.remove("active");
     event.stopImmediatePropagation();
 });
 
@@ -23,6 +24,7 @@ document.querySelector(".ent").addEventListener('click', function () {
     document.querySelector("#sinlog").classList.add("disappear");
     document.querySelector("#displaypicture").classList.add("appear");
     document.querySelector(".logbox").classList.remove("active");
+    document.querySelector(".alertbox").classList.remove("active");
     logged = true;
     event.stopImmediatePropagation();
 });
