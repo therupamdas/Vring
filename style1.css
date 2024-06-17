@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: gaz;
-    background-color: #0f0f0f;
+    background-color: #000000;
 }
 
 a {
@@ -11,7 +11,7 @@ a {
 .navbar {
     height: 100%;
     width: 100%;
-    background-color: #111111;
+    background-color: #121212;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -21,7 +21,7 @@ a {
 
 .navoption {
     font-size: 2vw;
-    border: 1px solid rgba(255, 255, 255, 0);
+    border: 1px solid #121212;
     border-radius: 0.2vw;
     padding: 10px;
     transition: all ease 0.15s;
@@ -79,12 +79,11 @@ input {
 
 header {
     width: 100%;
-    overflow: hidden;
     transition: all ease 0.2s;
     display: flex;
     align-items: center;
     height: 12vw;
-    background-color: #0f0f0f;
+    background-color: #121212;
 }
 
 @keyframes dim {
@@ -152,7 +151,6 @@ header {
     z-index: 2;
     width: 30vw;
     border-radius: 0.6vw;
-    ;
     aspect-ratio: 4/3;
     display: flex;
     flex-wrap: wrap;
@@ -209,7 +207,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 10vw;
-    background-color: #0f0f0f00;
+    background-color: #12121200;
 }
 
 .visiual_01 {
@@ -221,7 +219,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0f0f0f00;
+    background-color: #12121200;
 }
 
 
@@ -235,6 +233,7 @@ header {
 
 .glow {
     margin-left: 5vw;
+    margin-right: 70%;
     width: 10vw;
     height: 10vw;
     transition: all ease 0.2s;
@@ -242,7 +241,7 @@ header {
     justify-content: center;
     align-items: center;
 
-    background-color: #0f0f0f;
+    background-color: #121212;
 }
 
 #logopic {
@@ -340,14 +339,15 @@ header {
     justify-content: center;
     align-items: center;
     color: #7620ff;
-    background-color: #0f0f0f;
-    transition: all ease 0.1s;
+    background-color: #121212;
+    transition: all ease 0.3s;
     cursor: pointer;
 }
 
 .sinup:hover {
     color: #ffffff;
     border: 2px solid#ffffff;
+    scale: 1.03;
 }
 
 .user {
@@ -360,7 +360,7 @@ header {
     row-gap: 1vw;
     aspect-ratio: 1/1;
     color: #7620ff;
-    background-color: #0f0f0f00;
+    background-color: #12121200;
 
 }
 
@@ -377,8 +377,6 @@ header {
 }
 
 .triplet {
-    margin-left: 2%;
-    margin-right: 2%;
     z-index: 1;
     display: flex;
     justify-content: center;
