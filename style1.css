@@ -637,13 +637,13 @@ footer {
     }
 
     .glow2 {
-        width: 24vw;
+        width: 22vw;
         transition: all ease 0.2s;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 24vw;
+        height: 22vw;
         background-color: #12121200;
     }
 
@@ -663,4 +663,6 @@ footer {
         font-size: 6vw;
 
     }
+
+    #displaypicture {}
 }
