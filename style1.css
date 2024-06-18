@@ -15,7 +15,6 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 25px;
     color: white;
 }
 
@@ -516,4 +515,15 @@ footer {
     padding-top: 1vw;
     padding-bottom: 1vw;
     color: #ffffff;
+}
+
+@media only screen and (max-width:1200px) {
+    header {
+        width: 100%;
+        transition: all ease 0.2s;
+        display: flex;
+        align-items: center;
+        height: 30vw;
+        background-color: #121212;
+    }
 }
