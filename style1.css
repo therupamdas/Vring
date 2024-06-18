@@ -524,7 +524,7 @@ footer {
         transition: all ease 0.2s;
         display: flex;
         align-items: center;
-        height: 30vw;
+        height: 26vw;
         background-color: #121212;
     }
 
@@ -552,8 +552,8 @@ footer {
     .glow {
         margin-left: 3vw;
         margin-right: 40%;
-        width: 25vw;
-        height: 25vw;
+        width: 22vw;
+        height: 22vw;
         transition: all ease 0.2s;
         display: flex;
         justify-content: center;
@@ -563,8 +563,8 @@ footer {
 
     .glow img {
         position: absolute;
-        height: 22vw;
-        width: 22vw;
+        height: 18vw;
+        width: 18vw;
         transition: all ease 0.2s;
         border-radius: 50%;
         background-color: #20ff5f00;
@@ -572,7 +572,7 @@ footer {
     }
 
     .user {
-        height: 25vw;
+        height: 24vw;
         overflow: hidden;
         display: flex;
         justify-content: center;
@@ -620,6 +620,20 @@ footer {
     .t1 {
         font-size: 4vw;
         width: 24vw;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10%;
+        width: 100%;
+        background-color: rgb(26, 36, 63);
+        bottom: 0;
+        flex-direction: column;
+
     }
 
 }
